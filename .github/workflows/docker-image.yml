@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: claudiiagzlez/web:latest, claudiiagzlez/web😒{{ github.sha }} 
+          tags: claudiiagzlez/web:latest, claudiiagzlez/web {{ github.sha }}
